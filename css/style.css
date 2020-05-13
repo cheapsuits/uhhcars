@@ -1,6 +1,17 @@
-img {
-    border-radius: 15px;
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,700);
 
-    max-width: 100%;
-    height: auto;
-  }
+body {
+  font-family: Muli;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Oswald;
+}
+
+img {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
